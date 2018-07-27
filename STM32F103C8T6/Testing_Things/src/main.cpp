@@ -3,11 +3,10 @@
 #include "LCD16x2_4bit.h"
 
 
-int main()
+void main()
 {
 
 	LCD_Init();
-
 
 	while(1)
 	{

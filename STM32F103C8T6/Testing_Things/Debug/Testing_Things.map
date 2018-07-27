@@ -2306,7 +2306,7 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000     0x5e90
+.debug_info     0x0000000000000000     0x5e8c
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000      0x956 ./system/src/newlib/_exit.o
  .debug_info    0x0000000000000956      0x942 ./system/src/newlib/_sbrk.o
@@ -2318,9 +2318,9 @@ END GROUP
  .debug_info    0x0000000000003221     0x1140 ./system/src/cortexm/exception_handlers.o
  .debug_info    0x0000000000004361      0x494 ./system/src/cmsis/system_stm32f10x.o
  .debug_info    0x00000000000047f5       0xca ./system/src/cmsis/vectors_stm32f10x.o
- .debug_info    0x00000000000048bf     0x15d1 ./src/main.o
+ .debug_info    0x00000000000048bf     0x15cd ./src/main.o
 
-.debug_abbrev   0x0000000000000000     0x156c
+.debug_abbrev   0x0000000000000000     0x156a
  *(.debug_abbrev)
  .debug_abbrev  0x0000000000000000      0x1f3 ./system/src/newlib/_exit.o
  .debug_abbrev  0x00000000000001f3      0x1fc ./system/src/newlib/_sbrk.o
@@ -2332,7 +2332,7 @@ END GROUP
  .debug_abbrev  0x0000000000000d18      0x32b ./system/src/cortexm/exception_handlers.o
  .debug_abbrev  0x0000000000001043      0x177 ./system/src/cmsis/system_stm32f10x.o
  .debug_abbrev  0x00000000000011ba       0x9d ./system/src/cmsis/vectors_stm32f10x.o
- .debug_abbrev  0x0000000000001257      0x315 ./src/main.o
+ .debug_abbrev  0x0000000000001257      0x313 ./src/main.o
 
 .debug_line     0x0000000000000000     0x3580
  *(.debug_line)
@@ -2384,7 +2384,7 @@ END GROUP
  .debug_frame   0x0000000000000cd8       0x30 c:/users/legen/appdata/roaming/xpacks/@gnu-mcu-eclipse/arm-none-eabi-gcc/7.2.1-1.1.5/.content/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg_nano.a(lib_a-mlock.o)
  .debug_frame   0x0000000000000d08       0x20 c:/users/legen/appdata/roaming/xpacks/@gnu-mcu-eclipse/arm-none-eabi-gcc/7.2.1-1.1.5/.content/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg_nano.a(lib_a-nano-msizer.o)
 
-.debug_str      0x0000000000000000    0x56641
+.debug_str      0x0000000000000000    0x56695
  *(.debug_str)
  .debug_str     0x0000000000000000     0x7d40 ./system/src/newlib/_exit.o
                                        0x7f1e (size before relaxing)
@@ -2406,8 +2406,8 @@ END GROUP
                                       0x4e8d9 (size before relaxing)
  .debug_str     0x0000000000055a2f       0x57 ./system/src/cmsis/vectors_stm32f10x.o
                                        0x387e (size before relaxing)
- .debug_str     0x0000000000055a86      0xbbb ./src/main.o
-                                      0x536e2 (size before relaxing)
+ .debug_str     0x0000000000055a86      0xc0f ./src/main.o
+                                      0x536f4 (size before relaxing)
 
 .debug_loc      0x0000000000000000      0xe3d
  *(.debug_loc)
