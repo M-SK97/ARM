@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 #define LCDPort				GPIOB
-#define DataDir_LCDPort		0b1111000000000000		//PB12, 13, 14 and 15.
+#define DataDir_LCDPort		0b1111000000000000		//PB12, 13, 14 and 15. (DB4, 5, 6 and 7) respectively.
 #define LCDControlPort		GPIOA
 #define DataDir_LCDControl	0b0001100100000000		//PA8, 11 and 12.
 #define Enable				0b0000000100000000		//E = PA8
