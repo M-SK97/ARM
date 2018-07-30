@@ -9,7 +9,7 @@
 #define LCDPort				Reg
 #define Enable				3
 #define ReadWrite			2
-#define RegisterSelect		1
+#define RegisterSelect			1
 
 void LCD_Init (void);
 void LCD_Command( unsigned char cmnd );
