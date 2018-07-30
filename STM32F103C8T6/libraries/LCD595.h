@@ -1,5 +1,5 @@
-#ifndef LCD16x2
-#define LCD16x2
+#ifndef __LCD595_H
+#define __LCD595_H
 
 #include "stm32f10x.h"
 #include "delay.h"

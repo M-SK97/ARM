@@ -2403,7 +2403,7 @@ END GROUP
  .debug_frame   0x0000000000000d30       0x30 c:/users/legen/appdata/roaming/xpacks/@gnu-mcu-eclipse/arm-none-eabi-gcc/7.2.1-1.1.5/.content/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg_nano.a(lib_a-mlock.o)
  .debug_frame   0x0000000000000d60       0x20 c:/users/legen/appdata/roaming/xpacks/@gnu-mcu-eclipse/arm-none-eabi-gcc/7.2.1-1.1.5/.content/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib/thumb/v7-m\libg_nano.a(lib_a-nano-msizer.o)
 
-.debug_str      0x0000000000000000    0x56748
+.debug_str      0x0000000000000000    0x5674b
  *(.debug_str)
  .debug_str     0x0000000000000000     0x7d40 ./system/src/newlib/_exit.o
                                        0x7f1e (size before relaxing)
@@ -2425,8 +2425,8 @@ END GROUP
                                       0x4e8d9 (size before relaxing)
  .debug_str     0x0000000000055a2f       0x57 ./system/src/cmsis/vectors_stm32f10x.o
                                        0x387e (size before relaxing)
- .debug_str     0x0000000000055a86      0xcc2 ./src/main.o
-                                      0x537e0 (size before relaxing)
+ .debug_str     0x0000000000055a86      0xcc5 ./src/main.o
+                                      0x537e3 (size before relaxing)
 
 .debug_loc      0x0000000000000000      0xe7e
  *(.debug_loc)
