@@ -15,6 +15,8 @@ PB13 = Clock
 PB14 = latch
 */
 
+uint8_t Reg=0;
+
 #define controlPort		GPIOB
 #define serialHigh		GPIO_BSRR_BS12
 #define serialLow		GPIO_BSRR_BR12
@@ -69,6 +71,7 @@ void shift(uint8_t data)
 		}
 		i = i/2;
 	}
+Reg = data;
 	latch();
 }
 

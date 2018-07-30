@@ -27,7 +27,7 @@ src/main.o: ../src/main.cpp ../system/include/cmsis/stm32f10x.h \
  ../system/include/stm32f1-stdperiph/stm32f10x_usart.h \
  ../system/include/stm32f1-stdperiph/stm32f10x_wwdg.h \
  ../system/include/stm32f1-stdperiph/misc.h ../include/delay.h \
- ../include/shift595.h
+ ../include/LCD595.h ../include/delay.h ../include/shift595.h
 
 ../system/include/cmsis/stm32f10x.h:
 
@@ -88,6 +88,10 @@ src/main.o: ../src/main.cpp ../system/include/cmsis/stm32f10x.h \
 ../system/include/stm32f1-stdperiph/stm32f10x_wwdg.h:
 
 ../system/include/stm32f1-stdperiph/misc.h:
+
+../include/delay.h:
+
+../include/LCD595.h:
 
 ../include/delay.h:
 
